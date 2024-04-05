@@ -16,7 +16,7 @@
  <project path="device/xiaomi/lancelot" name="android_device_xiaomi_lancelot" remote="lineage" revision="lineage-20" />
 
  <!--Kernel -->
- <project path="kernel/xiaomi/lancelot" name="android-kernel-xiaomi-mt6768" remote="icel" revision="T" />
+ <project path="kernel/xiaomi/lancelot" name="android_kernel_xiaomi_mt6768" remote="icel" revision="T" />
 
  <!--Vendor -->
  <project path="vendor/xiaomi/lancelot" name="mtk_proprietary_vendor_xiaomi_lancelot.git" remote="burhan" revision="master" />
