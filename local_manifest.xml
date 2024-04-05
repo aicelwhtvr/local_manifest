@@ -22,6 +22,8 @@
  <project path="vendor/xiaomi/lancelot" name="mtk_proprietary_vendor_xiaomi_lancelot.git" remote="burhan" revision="master" />
  
   <!--Other HALs-->
+   <project path="hardware/mediatek" name="android_hardware_mediatek.git" remote="lineage" revision="lineage-20" />
+ 
    
  <!-- Dependencies -->
 
