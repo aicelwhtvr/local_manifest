@@ -22,7 +22,7 @@
  <project path="kernel/xiaomi/lancelot" name="android_kernel_xiaomi_mt6768" remote="icel" revision="T" />
 
  <!--Vendor -->
- <project path="vendor/xiaomi/lancelot" name="mtk_proprietary_vendor_xiaomi_lancelot.git" remote="burhan" revision="master" />
+ <project path="vendor/xiaomi/lancelot" name="proprietary_vendor_xiaomi_lancelot.git" remote="mt6768" revision="lineage-20" />
  
   <!--Other -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="pe" revision="thirteen"/>
