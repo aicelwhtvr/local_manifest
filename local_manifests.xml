@@ -11,7 +11,10 @@
             clone-depth="1" />
   <remote name="mt6768"
             fetch="https://github.com/mt6768-dev"
-            clone-depth="1" />                            
+            clone-depth="1" />
+  <remote name="pe"
+            fetch="https://github.com/mt6768-dev"
+            clone-depth="1" />
  <!--Tree -->
  <project path="device/xiaomi/lancelot" name="android_device_xiaomi_lancelot" remote="lineage" revision="lineage-20" />
 
@@ -21,8 +24,9 @@
  <!--Vendor -->
  <project path="vendor/xiaomi/lancelot" name="mtk_proprietary_vendor_xiaomi_lancelot.git" remote="burhan" revision="master" />
  
-  <!--Other HALs-->
- <project path="hardware/mediatek" name="android_hardware_mediatek.git" remote="lineage" revision="lineage-20" />
+  <!--Other -->
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="pe" revision="thirteen"/>
+  <project path="hardware/mediatek" name="android_hardware_mediatek.git" remote="lineage" revision="lineage-20" />
  
    
  <!-- Dependencies -->
