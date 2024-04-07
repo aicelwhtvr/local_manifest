@@ -13,7 +13,7 @@
             fetch="https://github.com/mt6768-dev"
             clone-depth="1" />
   <remote name="pe"
-            fetch="https://github.com/mt6768-dev"
+            fetch="https://github.com/PixelExperience"
             clone-depth="1" />
  <!--Tree -->
  <project path="device/xiaomi/lancelot" name="android_device_xiaomi_lancelot" remote="lineage" revision="lineage-20" />
